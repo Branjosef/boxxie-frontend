@@ -1,0 +1,23 @@
+.formContainer {
+  background: rgba(128, 128, 128, 0.26);
+  min-height: 40vh;
+}
+
+.loginForm {
+  background: white;
+  padding-top: 2em;
+}
+
+/* debugging styling */
+
+.border-test {
+  background: red;
+}
+
+.border-test2 {
+  background: blue;
+}
+
+.border-test3 {
+  background: yellow;
+}
