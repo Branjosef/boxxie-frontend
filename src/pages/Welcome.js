@@ -1,12 +1,16 @@
 import React from 'react';
-
+import ImageCarousel from './ImageCarousel'
 
 class Welcome extends React.Component {
 
   render() {
     return (
       <>
-        Hello World! <i className="material-icons color-red">add</i>
+        {/* Header  */}
+        <ImageCarousel />
+        {/* Product Container */}
+
+        
       </>
     )
   }
