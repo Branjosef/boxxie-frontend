@@ -3,14 +3,15 @@ import '../styles/App.css';
 import { Switch, Route } from 'react-router-dom';
 import Welcome from "./Welcome";
 import SignIn from './SignIn'
+import NavBar from '../components/NavBarComponents/NavBar'
 
 class App extends React.Component {
 
 
   render() {
     return (
-      <div className="App">
-
+      <div className="App" >
+        <NavBar />
         <Switch>
           <Route exact path='/' component={Welcome} />
           <Route path='/Login' component={SignIn} />
