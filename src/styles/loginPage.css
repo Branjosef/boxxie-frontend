@@ -1,11 +1,40 @@
 .formContainer {
-  background: rgba(128, 128, 128, 0.26);
+  background: #e6e6e6;
   min-height: 40vh;
+  padding-top: 1.5em !important;
+  padding-bottom: 1.5em !important;
 }
 
 .loginForm {
   background: white;
-  padding-top: 2em;
+  padding-top: 1.5em !important;
+}
+
+.lock-icon {
+  vertical-align: -0.1em;
+}
+
+.sign-in-title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: center;
+}
+
+.user-btn {
+  color: black;
+  background: none;
+  border: none;
+}
+
+.user-btn:hover {
+  color: black;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
+
+.center-align {
+  text-align: center;
 }
 
 /* debugging styling */

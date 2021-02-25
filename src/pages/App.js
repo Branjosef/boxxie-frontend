@@ -2,17 +2,18 @@ import React from 'react'
 import '../styles/App.css';
 import { Switch, Route } from 'react-router-dom';
 import Welcome from "./Welcome";
-import Login from './Login'
+import SignIn from './SignIn'
 
 class App extends React.Component {
 
 
   render() {
     return (
-      <div className="App" >
+      <div className="App">
+
         <Switch>
           <Route exact path='/' component={Welcome} />
-          <Route path='/login' component={Login} />
+          <Route path='/Login' component={SignIn} />
         </Switch>
       </div>
     );
