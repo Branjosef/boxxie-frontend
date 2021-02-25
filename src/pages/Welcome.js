@@ -1,12 +1,11 @@
 import React from 'react';
-import ImageCarousel from './ImageCarousel'
-
+import ImageCarousel from '../components/ImageCarouselComponents/ImageCarousel'
+import NavBar from '../components/NavBarComponents/NavBar'
 class Welcome extends React.Component {
 
   render() {
     return (
       <>
-        {/* Header  */}
         <ImageCarousel />
         {/* Product Container */}
 
