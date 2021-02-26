@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/loginPage.css';
+import '../styles/signInPage.css';
 import LoginForm from '../components/loginPageComponents/LoginForm';
 import SignUpForm from '../components/loginPageComponents/SignUpForm'
 
@@ -26,7 +26,9 @@ class SignIn extends React.Component {
   render() {
     return (
       <div className="container-fluid formContainer">
-        <h3 className="sign-in-title"><i className="material-icons lock-icon">lock</i> Secure Sign In</h3>
+        {this.state.register ? <h3 className="sign-in-title"><i className="material-icons lock-icon">lock</i> Secure Registration</h3> :
+          <h3 className="sign-in-title"><i className="material-icons lock-icon">lock</i> Secure Sign In</h3>
+        }
         <div className="container col-6 loginForm">
           <div className="edit-form">
             {<h4 style={{ color: 'red' }}>{this.state.error}</h4>}

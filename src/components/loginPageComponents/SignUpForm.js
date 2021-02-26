@@ -5,6 +5,10 @@ const SignUpForm = ({ loginHandler }) => {
   return (
     <form onSubmit={loginHandler}>
       <div className="form-group user-form-group">
+
+        <label for="username" className="label">Username</label>
+        <input type="text" className="form-control mb-2" name="username" />
+
         <label for="firstname" className="label ">First Name</label>
         <input type="text" className="form-control mb-2" name="firstname" />
 
