@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import logo from './boxxie.png'
+import '../../styles/upperNavBar.css'
 
 function UpperNav() {
     return (
         <div className='navbar'>
             <Link to ='/'>
-                <i className='material-icons black'>home</i>
+                {/* slogan = marking header */}
+                {/* <i className='material-icons black'>home</i> */}
+                <img src={logo} alt='boxxie' className="branding-header"/>
             </Link>
             <div>
                 <span className="upperNavBar__options">
