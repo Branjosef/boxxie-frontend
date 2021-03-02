@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/profilePage.css';
-import ProfileCard from '../components/profilePageComponents/ProfileCard'
+import ProfileComponent from '../components/profilePageComponents/ProfileComponent';
 
 let profileComponents = [
   { title: "Your Orders", description: "Track, return, or buy things again" },
-  { title: "Login & Security", description: "Edit login, name, and mobile number" },
-  { title: "Your Payments", description: "Manage payment methods and settings" }
+  { title: "Profile & Security", description: "Edit login, name, and other account information" },
+  { title: "Your Payments", description: "Manage payment methods and settings" },
+  { title: "Storefront", description: "Start a storefront or manage existing storefront" }
+
 ]
 
 class Profile extends React.Component {
@@ -14,9 +16,9 @@ class Profile extends React.Component {
     console.log(title)
   }
 
-  renderProfileCards = () => {
+  renderProfileComponents = () => {
     return profileComponents.map(c => {
-      return <ProfileCard key={c.title} component={c} />
+      return <ProfileComponent key={c.title} component={c} />
     })
   }
 
@@ -24,9 +26,8 @@ class Profile extends React.Component {
   render() {
     return (
       <div className="container-fluid profile-container">
-        <h1>Your Account</h1>
-        <div className="profile-card-container">
-          {this.renderProfileCards()}
+        <div className="profile-component-container">
+          {this.renderProfileComponents()}
         </div>
 
       </div>

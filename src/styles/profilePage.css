@@ -1,14 +1,39 @@
 .profile-container {
+  background: linear-gradient(to top, #94949442, #f0f0f0);
+  text-align: center;
   display: inline-block;
+  min-height: 100vh;
 }
 
-.profile-card {
+.profile-component-container {
+  font-family: "Open Sans";
+}
+
+.profile-component {
   display: inline-block;
   margin: 10px;
   border: 1px solid #eee;
+  background: rgb(255, 255, 255);
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  width: 300px;
-  min-height: 120px;
-  padding: 20px;
+  min-height: 220px;
+  padding: 15px;
+  max-width: 300px;
+  min-width: 300px;
+  vertical-align: bottom;
+}
+
+.profile-component:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.profile-component-title {
+  text-align: center;
+  margin: 1em;
+}
+
+.profile-component-description {
+  text-align: center;
+  margin: 1em;
+  font-size: 14px;
 }
