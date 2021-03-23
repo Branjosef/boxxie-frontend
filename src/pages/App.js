@@ -5,7 +5,7 @@ import Welcome from "./Welcome";
 import SignIn from './SignIn';
 import NavBar from '../components/NavBarComponents/NavBar';
 import Profile from './Profile';
-
+import Dashboard from '../components/WelcomePageComponents/Dashboard'
 
 class App extends React.Component {
 
@@ -14,11 +14,12 @@ class App extends React.Component {
     return (
       <div className="App" >
         <NavBar />
-        <Switch>
+        {/* <Switch>
           <Route exact path='/' component={Welcome} />
           <Route path='/login' component={SignIn} />
           <Route path='/homepage' component={Profile} />
-        </Switch>
+        </Switch> */}
+        <Dashboard />
       </div>
     );
   }

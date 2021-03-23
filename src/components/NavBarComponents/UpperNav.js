@@ -11,22 +11,18 @@ function UpperNav() {
                 {/* <i className='material-icons black'>home</i> */}
                 <img src={logo} alt='boxxie' className="branding-header"/>
             </Link>
-            <div>
-                <span className="upperNavBar__options">
-                    Option 1 
-                </span>
-                <span className="upperNavBar__options">
-                    Option 2
-                </span>
-                <span className="upperNavBar__options">
-                    Option 3
-                </span>
-                <span className="upperNavBar__options">
-                    Option 4
-                </span>
-                <span className="upperNavBar__options">
-                    Option 5
-                </span>
+
+            {/* <div className="navbar__search">
+                <input
+                    className="navbar__searchInput"
+                    type="text" 
+                    placeholder="Search" />
+                <i className='searchIcon material-icons black' height>search</i>
+            </div> */}
+            <div> 
+                <Link to='/checkout'>
+                <i className='material-icons boxxie-purple'>shopping_cart</i>
+                </Link>
             </div>
             <div>
                 <Link to='/login'>Sign In</Link>

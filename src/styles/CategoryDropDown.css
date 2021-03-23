@@ -1,0 +1,15 @@
+.upperBar { 
+    display: none; 
+  }
+  
+  @media (max-width: 768px){
+    .upperBar { 
+      display: flex; 
+      background-color: yellow;
+    }
+  
+    .categories { 
+      margin-left: auto; 
+      margin-right: auto;
+    }
+  }
