@@ -6,28 +6,23 @@ import '../../styles/upperNavBar.css'
 function UpperNav() {
     return (
         <div className='navbar'>
-            <Link to ='/'>
+            <Link to='/'>
                 {/* slogan = marking header */}
                 {/* <i className='material-icons black'>home</i> */}
-                <img src={logo} alt='boxxie' className="branding-header"/>
+                <img src={logo} alt='boxxie' className="branding-header" />
             </Link>
 
-            {/* <div className="navbar__search">
+            <div className="nav-search">
+                <i className='material-icons'>search</i>
                 <input
-                    className="navbar__searchInput"
-                    type="text" 
-                    placeholder="Search" />
-                <i className='searchIcon material-icons black' height>search</i>
-            </div> */}
-            <div> 
-                <Link to='/checkout'>
-                <i className='material-icons boxxie-purple'>shopping_cart</i>
-                </Link>
+                    className="nav-search-input"
+                    type="text"
+                />
             </div>
-            <div>
-                <Link to='/login'>Sign In</Link>
-            </div>
-            
+
+            <Link to='/checkout'><i className='material-icons nav-icon'>shopping_cart</i></Link>
+            <Link to='/login'><i className="material-icons nav-icon">person </i></Link>
+
         </div>
     )
 }

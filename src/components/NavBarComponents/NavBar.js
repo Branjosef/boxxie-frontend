@@ -8,9 +8,9 @@ import CategoryDropDown from '../../components/NavBarComponents/CategoryDropDown
 function NavBar() {
     return (
         <>
-        <UpperNav />
-        <CategoryDropDown />
-        {/* <LowerNav /> */}
+            <UpperNav />
+            <CategoryDropDown />
+            {/* <LowerNav /> */}
         </>
     )
 }

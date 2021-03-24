@@ -1,18 +1,28 @@
-.branding-header { 
-    height: 60px ; 
-    width: 200px;
+.branding-header {
+  height: 60px;
+  width: 200px;
 }
 
-.navbar__searchInput { 
-    height: 35px; 
-    padding: 10px; 
-    margin-left: 50px; 
-    border: none; 
-    width: 70%; 
-    outline-color: black; 
+.nav-search {
+  background: yellow;
+  text-align: center;
 }
 
-.searchIcon { 
-    padding: 5px; 
-    background-color: #ff41DA;
+.nav-search-input {
+  width: 1000px !important;
+}
+
+.nav-icon {
+  padding: 3px;
+  color: black;
+  font-size: 2.4em;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: box-shadow 0.4s;
+}
+
+.nav-icon:hover {
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  color: #ff41da;
 }
