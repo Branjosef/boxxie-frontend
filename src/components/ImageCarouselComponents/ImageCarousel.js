@@ -26,7 +26,7 @@ function ImageCarousel() {
               className="d-block w-100 h-100" alt="electronics"/>
               <div className="carousel-caption d-none d-md-block">
                 <h5><strong>Electronics</strong></h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
             <div className="carousel-item">
@@ -34,7 +34,7 @@ function ImageCarousel() {
               className="d-block w-100 h-100" alt="Women Clothing"/>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Women Fashion</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
               </div>
             </div>
             <div className="carousel-item">
@@ -42,23 +42,23 @@ function ImageCarousel() {
               className="d-block w-100 h-100" alt="Men Clothing"/>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Men Fashion</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img src="https://thumbor.thedailymeal.com/2sdT7VpTJlM1CzO699XtYxOSZb4=/870x565/filters:focal(1001x496:1002x497)/https://www.thedailymeal.com/sites/default/files/story/2018/iStock-536685288.jpg" 
               className="d-block w-100 h-100" alt="Kitchen Appliances"/>
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Kitchen</h5>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img src="https://s7d1.scene7.com/is/image/mattelsites/FP_PLP_Banner_Mobile_GJW91_LL_PPGarden?wid=640&hei=400" 
               className="d-block w-100 h-100" alt="Kid's Toys"/>
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Kid's</h5>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
             <div className="carousel-item">
@@ -66,23 +66,23 @@ function ImageCarousel() {
               className="d-block w-100 h-100" alt="Women Shoes"/>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Women Shoes</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img src="https://images.unsplash.com/photo-1612902376491-7a8a99b424e8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njd8fHNob2VzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" 
               className="d-block w-100 h-100 card-img" alt="Men Shoes"/>
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Men Shoes</h5>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
             <div className="carousel-item">
               <img src="https://images.pexels.com/photos/275033/pexels-photo-275033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
               className="d-block w-100 h-100" alt="Gaming"/>
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Gaming</h5>
+                {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
               </div>
             </div>
           </div>
