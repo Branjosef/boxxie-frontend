@@ -19,9 +19,7 @@ function UpperNav() {
       <Link to='/'>
         <img src={logo} alt='boxxie' className="branding-header" />
       </Link>
-
       <Search />
-
       <div className="navbar-right">
         <Link to='/checkout'><i className='material-icons nav-icon'>shopping_cart</i></Link>
         <Link to='/login'><i className="material-icons nav-icon">person </i></Link>

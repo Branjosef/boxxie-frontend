@@ -4,6 +4,7 @@
 }
 
 .nav-icon {
+  margin-top: 0.3em;
   padding: 3px;
   color: black;
   font-size: 2.2em;
@@ -11,7 +12,8 @@
   margin-left: 10px;
   padding-top: 0.2em;
   vertical-align: -0.5em;
-  transition: box-shadow 0.4s;
+  border-radius: 50%;
+  transition: box-shadow 0.2s;
 }
 
 .nav-icon:hover {
@@ -47,4 +49,27 @@
     padding-top: 0.2em;
     font-size: 2.2em;
   }
+}
+
+.searchbar {
+  margin-top: 1em;
+  outline-style: none;
+  border: 0.1em solid #ff41d9a6;
+  border-radius: 14px;
+  width: 20em;
+}
+
+.searchbar::placeholder {
+  color: rgb(146, 145, 145);
+}
+
+input[type="text"].searchbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.search-icon {
+  font-size: 2.2em;
+  margin-right: 5px;
+  vertical-align: -0.35em;
 }
