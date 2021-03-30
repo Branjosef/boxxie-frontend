@@ -1,0 +1,38 @@
+/* .image-slide { 
+    width: 100vw; 
+    height: 200px; 
+}
+
+@keyframes display { 
+    0% { 
+        transform: translateX(200px); 
+        opacity: 0; 
+    }
+    10% { 
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+    20% { 
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+    30% {
+        transform: translateX(-200px); 
+        opacity: 0; 
+    }
+}
+
+.image-slide { 
+    position: relative; 
+    width: 100vw; 
+    height: 300px; 
+    margin-top: 15vh; 
+}
+
+.image-slide > img {
+    position: absolute; 
+    top: 0; 
+    left: calc(50% - 100px); 
+    opacity: 0; 
+    animation: display 10s infinite; 
+} */
